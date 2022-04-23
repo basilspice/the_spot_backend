@@ -26,13 +26,8 @@ const listings = [
   {
     id: 1,
     title: "Best riding spot in Seattle area",
-    description:
-      "Its got it all for when you wanna send it",
-    images: [
-      { fileName: "27" },
-      { fileName: "29" },
-      
-    ],
+    description: "Its got it all for when you wanna send it",
+    images: [{ fileName: "27" }, { fileName: "29" }],
     price: 1000,
     categoryId: 1,
     userId: 1,
@@ -48,18 +43,6 @@ const listings = [
     categoryId: 5,
     state: "ID",
     userId: 2,
-    location: {
-      latitude: 37.78825,
-      longitude: -122.4324,
-    },
-  },
-  {
-    id: 102,
-    title: "White Salmon / Little MOAB",
-    images: [{ fileName: "whitesalmon" }],
-    state: "OR",
-    categoryId: 3,
-    userId: 1,
     location: {
       latitude: 37.78825,
       longitude: -122.4324,
