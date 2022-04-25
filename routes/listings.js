@@ -61,7 +61,7 @@ router.post(
   async (req, res) => {
     const listing = {
       title: req.body.title,
-      price: parseFloat(req.body.price),
+      state: parseFloat(req.body.state),
       categoryId: parseInt(req.body.categoryId),
       description: req.body.description,
     };
