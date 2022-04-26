@@ -33,7 +33,7 @@ app.use("/api/messages", messages);
 //   console.log(`Server started on port ${port}...`);
 // });
 
-app.set("port", process.env.PORT || 8080);
+app.set("port", process.env.PORT || 9000);
 
 app.listen(app.get("port"), () => {
   console.log(`✅ PORT: ${app.get("port")} 🌟`);

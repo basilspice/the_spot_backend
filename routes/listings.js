@@ -13,7 +13,7 @@ const listingMapper = require("../mappers/listings");
 const config = require("config");
 
 const upload = multer({
-  dest: "uploads/",
+  dest: "assets/",
   limits: { fieldSize: 25 * 1024 * 1024 },
 });
 
